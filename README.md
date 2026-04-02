@@ -1,3 +1,11 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+# DEPRECATED
+PAXminer has been serving F3 Nation for a while now. We are standing up a new database and Slackbot. Check out https://github.com/F3-Nation to see what we're working on and to contribute. 
+
+<details>
+<Summary>Original ReadMe</Summary>
+
 # Environment variable management with Doppler
 
 Environment variables are managed with Doppler. Running the `./tooling/scripts/doppler.sh` script will help you push/pull env variables between Doppler and local .env files. You will first need to [install the Doppler CLI](https://docs.doppler.com/docs/cli) and then run `doppler login` and `doppler setup`.
@@ -24,3 +32,5 @@ pnpm doppler upload
 
 - this app uses a GCE instance to run PgBouncer in the f3data project
 - gcloud compute ssh f3data-pgbouncer-vm --project f3data
+
+</details>
